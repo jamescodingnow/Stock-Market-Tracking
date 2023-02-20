@@ -27,6 +27,7 @@ android {
         properties.load(project.rootProject.file("local.properties").newDataInputStream())
 
         buildConfigField "String", "STOCK_KEY", "\"${properties.getProperty("STOCK_KEY")}\""
+        buildConfigField "String", "BASE_URL", "\"https://alphavantage.co\""
     }
 
     buildTypes {
