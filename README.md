@@ -10,3 +10,7 @@ Stock Market Data Resource: https://www.alphavantage.co
 4. data/mapper/CompanyMapper is a mapper for the converting between CompanyListingEntity and CompanyListing each other.
 5. There is a database as StockDatabase.
 6. Our database functions are in StockDao.
+7. We created Resource sealed class to manage api responses.
+8. Resource sealed class has Success, Error and Loading classes.
+9. Create domain/repository/StockRepository as interface.
+10. data/repository/StockRepositoryImpl has all data fetching logic.
