@@ -14,3 +14,4 @@ Stock Market Data Resource: https://www.alphavantage.co
 8. Resource sealed class has Success, Error and Loading classes.
 9. Create domain/repository/StockRepository as interface.
 10. data/repository/StockRepositoryImpl has all data fetching logic.
+11. Create CompanyListingsViewModel and CompanyListingState & Event classes.
